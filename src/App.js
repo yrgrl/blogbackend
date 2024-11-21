@@ -178,9 +178,7 @@ function App() {
     document.body.classList.toggle('dark-mode');
   };
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+
 
   return (
     <Router>

@@ -26,6 +26,7 @@ function CreatePost({ addPost }) {
     }
 
     try {
+      // send request to localhost port 5000
       const response = await fetch('/api/posts', {
         method: 'POST',
         headers: {
